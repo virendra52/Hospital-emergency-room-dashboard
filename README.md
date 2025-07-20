@@ -1,56 +1,99 @@
-Hospital Emergency Room Dashboard (Power BI Project)
-This project showcases a fully interactive Power BI dashboard that analyzes key performance metrics of a hospital's emergency room. The dashboard provides both a consolidated view over an extended period and a detailed monthly snapshot, helping healthcare professionals monitor, evaluate, and optimize emergency department operations.
+#  Hospital Emergency Room Dashboard - Power BI Project
 
-Project Overview
-The dashboard is designed to deliver critical insights into patient demographics, service efficiency, referral trends, and overall satisfaction. It enables data-driven decision-making and supports hospital administration in improving emergency room performance.
+This project presents an insightful **Power BI Dashboard** analyzing patient data from a hospital emergency room (ER). It provides both **consolidated** and **monthly views** of key healthcare performance indicators to support hospital management in resource planning, service optimization, and patient satisfaction monitoring.
 
-Key Features
-Total Number of Patients: Displays the total patient count along with admission status breakdown (Admitted vs. Not Admitted).
+---
 
-Average Wait Time: Shows the average time taken to see a patient.
+##  Key Metrics Tracked
 
-Patient Satisfaction Score: Captures feedback scores to monitor quality of care.
+- **Total No. of Patients:** 9216 (Consolidated View)
+- **Average Wait Time:** 35.3 minutes
+- **Patient Satisfaction Score:** 4.99 (Avg.)
+- **Patients Referred:** 3816
+- **% Seen Within 30 Min:** 59.32% within target
+- **Gender Split:** Male 48.69%, Female 51.05%
 
-Patient Referral Analysis: Highlights the departments to which patients were referred, such as General Practice, Orthopedics, and Cardiology.
+---
 
-Age Group Distribution: Categorizes patients by age groups (e.g., 0–9, 10–19, etc.).
+##  Monthly View (Example: Aug 2024)
 
-Gender Distribution: Analyzes patients by gender including unconfirmed cases.
+- **No. of Patients in August 2024:** 530
+- **Avg. Wait Time:** 35.1 minutes
+- **Patient Satisfaction Score:** 5.18
+- **Referral Count:** 223
+- **Patients Seen Within 30 Min:** 60.94%
+- **Most Active ER Hours:** 09:00–11:00 AM, especially on Fridays and Saturdays
 
-Race Demographics: Provides insights into patient diversity by race.
+---
 
-Response Time: Displays the percentage of patients seen within 30 minutes.
+##  Dashboard Features
 
-Time-Based Patient Trends: Visualizes the number of patients by hour and day to identify peak periods.
+##  Consolidated View
 
-Views Included
-Consolidated View
-Covers the time period from April 2023 to October 2024. Useful for long-term trend analysis and yearly performance monitoring.
+- Patient trend by month (volumes, wait time, referrals, satisfaction)
+- Admission status breakdown (Admitted vs. Not Admitted)
+- Age group-wise patient volume
+- ER visits by gender, race, department referral
+- Time heatmap of patient visits by day and hour
 
-Monthly View
-Offers a deep-dive into individual months (e.g., August 2024), showing daily activity, satisfaction levels, and short-term trends.
+###  Monthly View
 
-Tools and Technologies
-Power BI
+- Daily-level patient trends
+- Performance tracking for a selected month
+- Quick analysis of departmental and racial patient distribution
+- Drilldown into high-volume hours/days for scheduling decisions
 
-Power Query
+---
 
-Data Modeling
+##  Patient Characteristics Captured
 
-DAX (Data Analysis Expressions)
+- **Age Group** (e.g., 0–9, 10–19, 20–29... 70–79)
+- **Gender** (Male, Female, Not Confirmed)
+- **Race** (White, African American, Asian, Native American, etc.)
+- **Referral Departments** (General Practice, Cardiology, Orthopedics, etc.)
 
-CSV/Excel data sources
+---
 
-Use Cases
-Emergency room performance monitoring
+##  Tools & Technologies
 
-Hospital administration and resource planning
+- **Power BI** for interactive dashboards and reporting
+- **Power Query Editor** for data cleansing and transformation
+- **DAX** for dynamic metrics like satisfaction %, admission %, and target tracking
+- **Heatmaps, Donut Charts, KPIs, and Time Series Plots**
 
-Department referral and capacity management
+---
 
-Patient flow and service time optimization
+##  Use Cases
 
-Compliance and quality audits
+- Hospital administration & performance monitoring
+- Staff scheduling and resource planning based on peak hour trends
+- Enhancing patient satisfaction and reducing wait times
+- Identifying underserved departments or patient demogra
 
-Dataset & Source
-This dashboard was developed using a synthetic dataset created for analytical and educational purposes. No real patient data is used in this project.
+##  Dataset Info
+
+The dataset simulates ER patient visit records between **April 2023 to October 2024**, capturing admission status, age, gender, department referral, race, visit timing, and satisfaction metrics.
+
+---
+
+##  Dashboard Previews
+
+##  Consolidated View  
+![Consolidated View](./Consolated_view.png)
+
+##  Monthly View - August 2024  
+![Monthly View](./Monthly_view.png)
+
+---
+
+##  Contributions
+
+Feel free to fork, suggest improvements, or use this layout for your healthcare reporting needs.
+
+---
+
+##  License
+
+This project is for educational, analytics, and visualization demonstration purposes only.
+
+
